@@ -3,7 +3,7 @@
 
  1.安装python环境
  
- 2.下载config.yml和index.py文件
+ 2.下载qiandao文件夹中的config.yml和index.py文件
  
  3.修改config.yml用户配置文件（如果你老师发的普通签到任务，只填写用户名和密码即可；如果任务有签到问题，根据自己手机以前的签到记录自行修改config.yml中的问题和答案）
  
@@ -14,9 +14,9 @@
 下面是写给想要了解签到脚本工作原理的同学，如果你是小白，请自行忽略！！！
 
 程序功能实现简单流程：
-通过index.py主程序调用api项目实现登录学校官网的网上办事大厅获取cookies等值并进行模拟登录。
+通过index.py主程序调用api项目实现登录学校官网的网上办事大厅获取cookies等值并进行模拟登录今日校园获取表单、填写并提交。
 
-
+亲测此项目中的api接口9月23号还可以使用，至于能使多久就不知道了。如果接口失效的话，运行主程序后返回学校官网的链接会打不开，这样就凉凉了。
 
 如果你想了解更多细节请移步 子墨大神的项目https://github.com/ZimoLoveShuang/auto-submit 和
 KitChen的项目https://github.com/meethigher/cpdaily-submit
